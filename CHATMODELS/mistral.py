@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-from langchain.mistralai import ChatMistralAI
+from langchain_mistralai import ChatMistralAI
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 
 os.environ["MISTRAL_API_KEY"] = "KUYZj9ARxQNWRI3LoUWCO2cnYawrzKbA"  # freee key
