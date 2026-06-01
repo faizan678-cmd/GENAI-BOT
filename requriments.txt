@@ -1,0 +1,7 @@
+ os
+langchain
+streamlit
+langchain.chat_models 
+langchain_core.messages 
+langchain-mistralai
+
