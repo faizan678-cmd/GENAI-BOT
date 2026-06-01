@@ -1,9 +1,9 @@
 import os
 import streamlit as st
-from langchain.chat_models import init_chat_model
+from langchain.chat_models import ChatMistralAI
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 
-os.environ["MISTRAL_API_KEY"] = "KUYZj9ARxQNWRI3LoUWCO2cnYawrzKbA"  # Replace with your actual Mistral API key
+os.environ["MISTRAL_API_KEY"] = "KUYZj9ARxQNWRI3LoUWCO2cnYawrzKbA"  # freee key
 
 st.set_page_config(page_title="Faizan's Angry Bot", page_icon="😤", layout="centered")
 
@@ -13,7 +13,7 @@ st.divider()
 
 @st.cache_resource
 def get_model():
-    return init_chat_model("mistral-medium-3-5")  # Using Mistral Large model
+    return ChatMistralAI(model="mistral-medium-3-5")  # Using Mistral Large model
 
 model = get_model()
 
