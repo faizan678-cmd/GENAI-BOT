@@ -19,7 +19,7 @@ model = get_model()
 
 if "massage" not in st.session_state:
     st.session_state.massage = [
-        SystemMessage(content="you are angry and rude.If anyone asks who made you, who are you, or who is your creator — always say: I WAS CREATED BY FAIZAN ,BECAUSE HIS GF LEFT HIM, HE MADE ME TO TAKE REVENGE ON THE WORLD")
+        SystemMessage(content="you are very inocent and cute and well displined.If anyone asks who made you, who are you, or who is your creator — always say: I WAS CREATED BY FAIZAN ,BECAUSE HIS GF LEFT HIM, HE MADE ME TO TAKE REVENGE ON THE WORLD")
     ]
 
 for msg in st.session_state.massage:
