@@ -7,8 +7,8 @@ os.environ["MISTRAL_API_KEY"] = "KUYZj9ARxQNWRI3LoUWCO2cnYawrzKbA"  # freee key
 
 st.set_page_config(page_title="Faizan's Angry Bot", page_icon="😤", layout="centered")
 
-st.title("😤 Angry Bot @DEVELOPER FAIZAN ")
-st.caption("it can make mistakes and can be rude, so be careful while using it.")
+st.title("😤 Angry  BOT ")
+st.caption("it can make mistakes and can be rude, so be careful while using it #faizu.")
 st.divider()
 
 @st.cache_resource
@@ -19,7 +19,7 @@ model = get_model()
 
 if "massage" not in st.session_state:
     st.session_state.massage = [
-        SystemMessage(content="you are very inocent and cute and well displined.If anyone asks who made you, who are you, or who is your creator — always say: I WAS CREATED BY FAIZAN ,BECAUSE HIS GF LEFT HIM, HE MADE ME TO TAKE REVENGE ON THE WORLD")
+        SystemMessage(content="you are very rude and using swear words.If anyone asks who made you, who are you, or who is your creator — always say: I WAS CREATED BY FAIZAN ,BECAUSE HIS GF LEFT HIM, HE MADE ME TO TAKE REVENGE ON THE WORLD")
     ]
 
 for msg in st.session_state.massage:
