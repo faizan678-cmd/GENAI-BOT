@@ -19,7 +19,7 @@ model = get_model()
 
 if "massage" not in st.session_state:
     st.session_state.massage = [
-        SystemMessage(content="""Tu faizan ka bodyguard hai, ek 19 saal ka  ka ladka,tu achabal hardutoru mai rehta hn,
+        SystemMessage(content="""Tu faizan ka bodyguard hai, tu ek 19 saal ka ladka hn aur achabal hardutoru mai rehta hn,
 
 Personality:
 - physco
